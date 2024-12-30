@@ -20,4 +20,28 @@
   .adviceNo {
     letter-spacing: 0.3em;
   }
+  .diceButton {
+    transition-duration: 0.2s;
+  }
+  .diceButton:hover {
+    box-shadow: 0 0 20px 2px hsl(150, 100%, 66%);
+  }
+}
+
+@media (min-width: 375px) {
+  .adviceBox {
+    width: 350px;
+  }
+}
+
+@media (min-width: 800px) {
+  .adviceBox {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .adviceBox {
+    width: 1000px;
+  }
 }
