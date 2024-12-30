@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  * {
+    font-family: "Manrope", serif;
+    font-weight: 800;
+    font-style: normal;
+  } 
+  main {
+    min-height: 100vh;
+  } 
+  .quoteText {
+    font-size: 28px;
+  }
+  .adviceBox {
+    box-shadow: 1px 3px 50px hsl(220, 26%, 14%);
+  }
+  .adviceNo {
+    letter-spacing: 0.3em;
+  }
+}
