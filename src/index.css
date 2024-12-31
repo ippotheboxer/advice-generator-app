@@ -36,12 +36,12 @@
 
 @media (min-width: 800px) {
   .adviceBox {
-    width: 600px;
+    width: 500px;
   }
 }
 
 @media (min-width: 1440px) {
   .adviceBox {
-    width: 1000px;
+    width: 600px;
   }
 }
