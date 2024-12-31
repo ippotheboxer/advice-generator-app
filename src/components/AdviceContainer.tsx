@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import patterndesk from "/images/pattern-divider-desktop.svg";
 import patternmob from "/images/pattern-divider-mobile.svg";
+import diceImg from "/images/icon-dice.svg";
 import { getAdvice } from '../api/advice';
 
 interface adviceResponse {
@@ -54,7 +55,7 @@ const AdviceContainer: React.FC = () => {
                 className='bg-neonGreen p-4 rounded-full diceButton'
                 onClick={getNewAdvice}
                 >
-                    <img src="/images/icon-dice.svg" alt="dice" />
+                    <img src={diceImg} alt="dice" />
                 </button>
             </div>
         </div>
