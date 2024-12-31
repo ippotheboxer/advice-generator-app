@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import patterndesk from "/images/pattern-divider-desktop.svg";
-import patternmob from "/images/pattern-divider-mobile.svg";
-import diceImg from "/images/icon-dice.svg";
+
+// Images
+import patterndesk from "/assets/images/pattern-divider-desktop.svg";
+import patternmob from "/assets/images/pattern-divider-mobile.svg";
+import diceImg from "/assets/images/icon-dice.svg";
+
+// API get response
 import { getAdvice } from '../api/advice';
 
 interface adviceResponse {
