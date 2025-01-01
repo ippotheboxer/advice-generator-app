@@ -20,7 +20,6 @@ I created the design using a mobile-first approach. I added all the colours into
 - [React](https://reactjs.org/) - Frontend framework
 - [Typescript](https://www.typescriptlang.org/) - Javascript with types
 - [Tailwind-css](https://tailwindcss.com/) - Tailwind CSS
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### Useful resources
 
