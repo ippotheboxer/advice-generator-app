@@ -30,7 +30,7 @@ const AdviceContainer: React.FC = () => {
             setAdvice(data);
             })(); 
         } catch (error) {
-            console.log("Error getting countries");
+            console.log("Error getting advice");
         }
 }
   return (
