@@ -19,7 +19,7 @@ const AdviceContainer: React.FC = () => {
     const [advice, setAdvice] = useState<adviceResponse>();
 
     useEffect(() => {
-        getNewAdvice()
+        getNewAdvice();
     }, []);
 
     const getNewAdvice = () => {
@@ -30,12 +30,12 @@ const AdviceContainer: React.FC = () => {
             setAdvice(data);
             })(); 
         } catch (error) {
-            console.log("Error getting countries");
+            console.log("Error getting advice");
         }
 }
   return (
     <div className='pb-6 relative'>
-        <div className='flex flex-col items-center justify-center bg-containerBg py-12 rounded-md adviceBox'>
+        <div className='flex flex-col items-center justify-center bg-containerBg py-12 rounded-lg adviceBox'>
             <div className='flex flex-col items-center justify-center text-center w-8/12'>
                     {advice !== undefined && 
                     <>
@@ -56,7 +56,7 @@ const AdviceContainer: React.FC = () => {
             </div>
             <div className='bottom-0 absolute'>
                 <button 
-                className='bg-neonGreen p-4 rounded-full diceButton'
+                className='bg-neonGreen p-4 rounded-full diceButton transition duration-200 ease-in-out hover:animate-spin'
                 onClick={getNewAdvice}
                 >
                     <img src={diceImg} alt="dice" />

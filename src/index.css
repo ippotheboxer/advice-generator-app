@@ -20,9 +20,6 @@
   .adviceNo {
     letter-spacing: 0.3em;
   }
-  .diceButton {
-    transition-duration: 0.2s;
-  }
   .diceButton:hover {
     box-shadow: 0 0 20px 2px hsl(150, 100%, 66%);
   }
